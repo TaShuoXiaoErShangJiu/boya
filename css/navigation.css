@@ -1,0 +1,64 @@
+/*背景颜色*/
+.navigation{
+	background: #191d3a;
+}
+.navigation .navigation_content{
+	width: 1000px;
+	height: 58px;
+	margin: 0 auto;
+	position: relative;
+}
+/*左上角博雅图*/
+.navigation .navigation_content .navigation_logo{
+	background: url(../img/logo.png) no-repeat;
+	height: 58px;
+	width: 170px;
+	display: inline-block;
+}
+/*博雅--首页*/
+.navigation .navigation_content ul{
+	display: inline-block;
+	background: #191d3a;
+}
+.navigation .navigation_content ul li{
+	display: inline-block;
+	float: left;
+	width: 101px;
+	height: 58px;
+	line-height: 58px;
+	border-right: 1px solid #252947;
+	text-align: center;
+	cursor: pointer;
+	color: #748496;
+	display: block;
+	font-size: 12px;
+}
+.navigation .navigation_content ul li:hover{
+	color: white;
+}
+.navigation .navigation_content ul li.navigation_content_li{
+	background: #252947;
+	color: white;
+}
+/*博雅 --加入我们*/
+.navigation .navigation_content .join_us{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 5px;
+	display: inline-block;
+	background: #35b472;
+	position: absolute;
+	right: 50px;
+	bottom: 10px;
+}
+.navigation .navigation_content .join_us a{
+	display: inline-block;
+	color: white;
+}
+.navigation .navigation_content .join_us a:hover{
+	display: block;
+	border-radius: 5px;
+	background: #297359;
+}

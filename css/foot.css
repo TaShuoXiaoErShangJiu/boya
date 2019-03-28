@@ -1,0 +1,50 @@
+.foot{
+	width: 100%;
+	height: 92px;
+	background: #191d3a;
+}
+.foot .foot-content{
+	width: 1000px;
+	margin: 0 auto;
+	height: 92px;
+	line-height: 92px;
+}
+.foot .foot-content .left{
+	float: left;
+}
+.foot .foot-content .left a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #6c6e7e;
+}
+.foot .foot-content .right{
+	float: right;
+}
+.foot .foot-content .right p{
+	font-size: 12px;
+	color: #6c6e7e;
+}
+.foot .foot-content .right p img{
+	width: 36px;
+	height: 50px;
+	position: relative;
+	top: 18px;
+}
+.foot .top{
+	position: fixed;
+	right: 15px;
+	bottom: 80px;
+	width: 68px;
+	height: 29px;
+	border-radius: 5px;
+	background: #c7d6e5;
+	line-height: 29px;
+	text-align: center;
+	font-size: 14px;
+}
+.foot .top a{
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+	background: url(../img/top.png) no-repeat 10px center;
+}
